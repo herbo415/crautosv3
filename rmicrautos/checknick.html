@@ -1,0 +1,85 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<!-- Mirrored from crautos.com/rmicrautos/checknick.cfm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 23:45:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>crautos.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT>
+function validate() {
+   	if (document.userdata.unick.value.length < 6) {
+	  alert('El apodo debe tener por lo menos 6 caracteres.');
+	  document.userdata.unick.focus();
+	  return false;
+	}
+    window.opener.document.getElementById('unick').value= document.userdata.unick.value; 
+}
+
+function stringFilter4 (input) {
+s = input.value;
+filteredValues = "`#$%^&*()=+\|,/<>?«»[]{} ';:¢ûòöôÆæÉÅÄìîïèëêçåàäâéüÇ¦~£¥áíóúñÑªº¿¬¬½¼";     // Characters stripped out
+var i;
+var returnString = "";
+for (i = 0; i < s.length; i++) {  
+var c = s.charAt(i);
+if (filteredValues.indexOf(c) == -1) returnString += c;
+}
+input.value = returnString;
+}
+
+</script>
+
+
+
+<style type="text/css">
+<!--
+.style11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style12 {
+	font-size: 12px
+}
+body {
+	background-color: #FC0;
+}
+-->
+</style>
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"KE0bl1ao9rD070", domain:"crautos.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "../../d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="../../d5nxst8fruw4z.cloudfront.net/atrk8deb.gif?account=KE0bl1ao9rD070" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<div align="center">
+    <form name="userdata" method="post" action="https://crautos.com/rmicrautos/checknick.cfm" onSubmit="return validate()" name="userdata">
+    <table width="350" border="0" bgcolor="#FFCC00">
+        <tr>
+          <td width="393" align="center">
+            <span class="style11">
+            
+            </span>
+          </td>
+      </tr>
+        <tr>
+          <td align="center"><span class="style11">Apodo deseado:
+            <input name="unick" type="text" id="unick" size="15" maxlength="15" onKeyUp="stringFilter4(unick)">
+          </span></td>
+        </tr>
+        <tr>
+          <td height="50" align="center">
+            <input type="submit" name="submit" id="submit" value="     Consultar     ">
+          </td>
+      </tr>
+    </table>
+  </form>
+</div>
+</body>
+
+<!-- Mirrored from crautos.com/rmicrautos/checknick.cfm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 23:45:59 GMT -->
+</html>

@@ -1,0 +1,1006 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from crautos.com/rmicrautos/register.cfm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 23:40:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="../favicon.ico">
+<title>crautos.com</title>
+<!-- Bootstrap core CSS -->
+<link href="../bt/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+<link rel="stylesheet" type="text/css" href="../bt/css/googlefonts.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yellowtail%7COpen%20Sans%3A400%2C300%2C600%2C700%2C800" media="screen" />
+
+<!-- Custom styles for this template -->
+<link href="../bt/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="../bt/css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../bt/css/jquery.bxslider.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../bt/css/jquery.fancybox.css" rel="stylesheet">
+<link href="../bt/css/jquery.selectbox.css" rel="stylesheet">
+<link href="../bt/css/style.css" rel="stylesheet">
+<link href="../bt/css/newstyle.css" rel="stylesheet">
+<link href="../bt/css/mobile.css" rel="stylesheet">
+<link href="../bt/css/settings.css" media="screen" rel="stylesheet" type="text/css"  />
+<link href="../bt/css/animate.min.css" rel="stylesheet">
+<link href="../bt/css/ts.css" type="text/css" rel="stylesheet">
+<script src="../bt/js/jquery.min.js" type="text/javascript"></script>
+<script src="../bt/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../bt/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="../bt/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<script src="../bt/js/wow.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+<!--
+var popUpWin=0;
+
+function s() {
+  var left;
+	left = parseInt(window.screen.width / 2) - 240;
+	var top;
+	top = parseInt(window.screen.height / 2) - 300;
+window.name='thisparent';
+
+  if(popUpWin)
+  {
+    if(!popUpWin.closed) popUpWin.close();
+  }
+  popUpWin = open('mlogin.html','','toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=480,height=550,left='+left+', top='+top+' ');
+
+}
+
+function lo() {
+window.name='thisparent';
+  if(popUpWin)
+  {
+    if(!popUpWin.closed) popUpWin.close();
+  }
+  popUpWin = open('mlogout.html','','width=1,height=1');
+}
+
+//-->
+</SCRIPT>
+<SCRIPT>
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function checknick() {
+window.name='thisparent';
+var left;
+left = parseInt(window.screen.width / 2) - 175;
+var top;
+top = parseInt(window.screen.height / 2) - 75;
+window.open('checknick.html','','toolbar=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,width=350,height=130,left='+left+', top='+top+' ');
+}
+
+function stringFilter (input) {
+s = input.value;
+filteredValues = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-_=+\|,./<>?[]{}`';:¢ûòöôÆæÉÅÄìîïèëêçåàäâéüÇ¦~£¥PfáíóúñÑªº¿¬¬½¼";     // Characters stripped out
+var i;
+var returnString = "";
+for (i = 0; i < s.length; i++) {  // Search through string and append to unfiltered values to returnString.
+var c = s.charAt(i);
+if (filteredValues.indexOf(c) == -1) returnString += c;
+}
+input.value = returnString;
+}
+
+function stringFilter2 (input) {
+s = input.value;
+filteredValues = "@`#$%^&*()=+\|,/<>?«»[]{}'";     // Characters stripped out
+var i;
+var returnString = "";
+for (i = 0; i < s.length; i++) {  // Search through string and append to unfiltered values to returnString.
+var c = s.charAt(i);
+if (filteredValues.indexOf(c) == -1) returnString += c;
+}
+input.value = returnString;
+}
+
+function stringFilter3 (input) {
+s = input.value;
+filteredValues = "`@#$%^&*()=+\|,/<>«»?0123456789[]{}'";     // Characters stripped out
+var i;
+var returnString = "";
+for (i = 0; i < s.length; i++) {  // Search through string and append to unfiltered values to returnString.
+var c = s.charAt(i);
+if (filteredValues.indexOf(c) == -1) returnString += c;
+}
+input.value = returnString;
+}
+
+function stringFilter4 (input) {
+s = input.value;
+filteredValues = "`#$%^&*()=+\|,/<>?«»[]{} ';:¢ûòöôÆæÉÅÄìîïèëêçåàäâéüÇ¦~£¥áíóúñÑªº¿¬¬½¼";     // Characters stripped out
+var i;
+var returnString = "";
+for (i = 0; i < s.length; i++) {  // Search through string and append to unfiltered values to returnString.
+var c = s.charAt(i);
+if (filteredValues.indexOf(c) == -1) returnString += c;
+}
+input.value = returnString;
+}
+
+function checkforblanks() {
+	for (var i = 0; i < arguments.length; i += 2)
+		{
+		if (!arguments[i])
+			{alert("Por favor ingrese " + arguments[i+1] + ".");return false;}
+		}
+	return true;
+	}
+
+function validate() {
+	if (document.userdata.unewpwd1.value != document.userdata.unewpwd2.value) {
+	  alert('La contrase\xF1a y la confirmaci\xF3n no son iguales.');
+	  document.userdata.unewpwd1.focus();
+	  return false;
+	}
+
+	if (document.userdata.unewpwd1.value.length < 6) {
+	  alert('La contrase\xF1a debe tener por lo menos 6 caracteres.');
+	  document.userdata.unewpwd1.focus();
+	  return false;
+	}
+
+	if (document.userdata.unick.value.length < 6) {
+	  alert('El apodo debe tener por lo menos 6 caracteres.');
+	  document.userdata.unick.focus();
+	  return false;
+	}
+
+	if (document.userdata.uidtype.value == "00") {
+	  alert('Por favor seleccione el tipo de identificaci\xF3n.');
+	  document.userdata.uidtype.focus();
+	  return false;
+	}
+
+	if (document.userdata.uday.value == "00") {
+	  alert('Por favor seleccione el d\xEDa de nacimiento.');
+	  document.userdata.uday.focus();
+	  return false;
+	}
+
+	if (document.userdata.umonth.value == "00") {
+	  alert('Por favor seleccione el mes de nacimiento.');
+	  document.userdata.umonth.focus();
+	  return false;
+	}
+
+	if (document.userdata.uyear.value == "00") {
+	  alert('Por favor seleccione el a\xF1o de nacimiento.');
+	  document.userdata.uyear.focus();
+	  return false;
+	}
+
+	if (document.userdata.usex.value == "0") {
+	  alert('Por favor seleccione su sexo.');
+	  document.userdata.usex.focus();
+	  return false;
+	}
+
+	if (document.userdata.ucountry.value == "00") {
+	  alert('Por favor seleccione su pa\xEDs.');
+	  document.userdata.ucountry.focus();
+	  return false;
+	}
+
+	if (document.userdata.acceptterms.checked == false) {
+	  alert('Por favor haga constar que la informaci\xF3n proporcionada está correcta.');
+	  document.userdata.acceptterms.focus();
+	  return false;
+	}
+
+	// Make sure none of the required fields are empty
+	var isFull = checkforblanks(document.userdata.uemail.value, "su correo electr\xF3nico",
+								document.userdata.unewpwd1.value, "la contrase\xF1a",
+								document.userdata.unewpwd2.value, "la confirmaci\xF3n de contrase\xF1a",
+								document.userdata.unick.value, "su apodo en micrautos.com",
+								document.userdata.uname.value, "su nombre", 
+					            document.userdata.ulastname.value, "sus apellidos",
+					            document.userdata.uidnum.value, "su n\xFAmero de identificaci\xF3n",
+								document.userdata.uaddr1.value, "su direcci\xF3n f\xEDsica",
+								document.userdata.ucity.value, "su ciudad");
+	if (!isFull) {
+	  return false;
+	}
+}
+
+function validate_pwd() {
+	if (document.chgpwd.unewpwd1.value != document.chgpwd.unewpwd2.value) {
+	  alert('La nueva contrase\xF1a y la confirmaci\xF3n no son iguales.');
+	  document.chgpwd.unewpwd1.focus();
+	  return false;
+	}
+
+	// Make sure none of the required fields are empty
+	var isFull = checkforblanks(document.chgpwd.uoldpwd.value, "la contrase\xF1a actual", 
+					            document.chgpwd.unewpwd1.value, "la nueva contrase\xF1a",
+					            document.chgpwd.unewpwd2.value, "la confirmaci\xF3n de la nueva contrase\xF1a");
+	if (!isFull) {
+	  return false;
+	}
+}
+</script>
+
+<style type="text/css">
+<!--
+.brandtitle {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+.modeltitle {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	color: #0044DD;
+	padding-left: 5px;
+	line-height: 15px;
+}
+.tabletitle {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #FFFFFF;
+	line-height: 22px;
+}
+.maintext {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #343434;
+	line-height: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.header-image {
+	background-size: cover;
+}
+.brandlogo {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.brand {
+	border: 1px solid #e5e5e5;
+	-moz-border-radius: 5px / 5px;
+	-webkit-border-radius: 5px / 5px;
+	border-radius: 5px / 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #efefef;
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.13);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.13);
+	box-shadow: 0 0 5px rgba(0,0,0,.13);
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.brand:hover {
+	background-image: -moz-linear-gradient(bottom, #dedede 0%, #f9f9f9 50%);
+	background-image: -o-linear-gradient(bottom, #dedede 0%, #f9f9f9 50%);
+	background-image: -webkit-linear-gradient(bottom, #dedede 0%, #f9f9f9 50%);
+	background-image: linear-gradient(bottom, #dedede 0%, #f9f9f9 50%);
+}
+-->
+</style>
+
+</head>
+
+<body>
+<!--Header Start-->
+<header  data-spy="affix" data-offset-top="1" class="clearfix">
+    <section class="toolbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <ul class="right-none pull-right company_info">
+	                    
+        <div class="col-md-12" align="left">
+           <i class="fa fa-user"></i>&nbsp;<a href="index.html" target="_self"><img src="../rimages/micrautos.png"></a>
+           &nbsp;&nbsp;<a href="javascript:s();" class="btn btn-xs btn-success">INGRESAR</a>
+           &nbsp;&nbsp;<a href="register.html" target="_self" class="btn btn-xs btn-info">REGISTRATE</a>
+    	</div>
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar_shadow"></div>
+    </section>
+    <div class="bottom-header" >
+        <div class="container">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid"> 
+                    
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="hidden-xs">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a href="../index.html"><span class="logo"><img class="img-responsive" src="../rimages/crautoslogo.png" hspace="5" vspace="8" width="300"></span></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="../index.html">Inicio </a></li>
+                            <li><a href="../autosnuevos/index.html">Autos Nuevos</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Autos Usados <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../autosusados/index.html">Autos En Venta</a></li>
+                                    <li><a href="../autosusados/ofertasdeldia/index.html">Ofertas Del D&iacute;a</a></li>
+                                    <li><a href="../autosusados/zonaverde/index.html">Zona Verde</a></li>
+                                    <li><a href="../autosusados/premium/index.html">Autos Premium</a></li>
+                                    <li><a href="../bluebook/index.html">BlueBook </a></li>
+                                    <li><a href="../autosusados/anunciarse.html">Anuncie Su Auto</a></li>
+                                    <li><a href="../anuncios/index.html">Edite Su Anuncio</a></li>
+                                    <li><a href="../vendedores/index.html" target="_blank">Vendedores Registrados</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios y Productos<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../servicios/rentacar/index.html" target="_self">Alquiler de Auto</a></li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+
+
+					<div class="visible-xs">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a href="../index.html"><span class="logo"><img class="img-responsive" src="../rimages/crautoslogo.png" hspace="5" vspace="8" width="70%"></span></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse-2">
+                        <ul class="nav navbar-nav mov-navbar pull-left">
+                            <li><a href="../index.html">Inicio </a></li>
+                            <li><a href="../autosnuevos/index.html">Autos Nuevos</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Autos Usados <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../autosusados/index.html">Autos En Venta</a></li>
+                                    <li><a href="../autosusados/ofertasdeldia/index.html">Ofertas Del D&iacute;a</a></li>
+                                    <li><a href="../autosusados/zonaverde/index.html">Zona Verde</a></li>
+                                    <li><a href="../autosusados/premium/index.html">Autos Premium</a></li>
+                                    <li><a href="../bluebook/index.html">BlueBook </a></li>
+                                    <li><a href="../autosusados/anunciarse.html">Anuncie Su Auto</a></li>
+                                    <li><a href="../anuncios/index.html">Edite Su Anuncio</a></li>
+                                    <li><a href="../vendedores/index.html" target="_blank">Vendedores Registrados</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios y Productos<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../servicios/rentacar/index.html" target="_self">Alquiler de Auto</a></li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <!-- /.navbar-collapse --> 
+                </div>
+                <!-- /.container-fluid --> 
+            </nav>
+        </div>
+        <div class="header_shadow"></div>
+    </div>
+</header>
+
+<div style="margin-top: 60px"></div>
+<div style="margin-top: 100px"></div>
+<div class="clearfix"></div>
+<!--Header End-->
+
+<section class="content">
+    <div class="container">
+        <div class="row">
+        	<div class="col-xs-12">
+            	<div align="center">
+                	<br><br>
+                    <h5><b>NO es necesario registrarse para anunciar un veh&iacute;culo.<br>Si lo que desea es solamente publicar un anuncio de un veh&iacute;culo SIN registrarse en Micrautos, por favor <br><a href="../autosusados/anunciarse.html" target="_self">OPRIMA AQUI</a></b></h5>
+                    <br><br>
+
+                    <form action="https://crautos.com/rmicrautos/register2.cfm" method="post" onSubmit="return validate()" name="userdata" class="ajax_form">
+                        <table width="700" border="0" cellspacing="1" cellpadding="0" bgcolor="#000000" class="table table-responsive">
+                          <tr>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0" class="table table-responsive">
+                                <tr>
+                                  <td height="20" bgcolor="#006699" align="center" class="tabletitle"><strong>Registro de Usuario</strong></td>
+                                </tr>
+                                <tr>
+                                  <td><div align="center">
+                                      <table width="700" border="0" cellspacing="2" cellpadding="0" class="table table-responsive table-striped">
+                                        <tr>
+                                          <td height="20" align="right" width="200">&nbsp;Correo electr&oacute;nico:</td>
+                                          <td align="left" ><input name="uemail" type="text" id="uemail" size="50" maxlength="50" onKeyUp="stringFilter4(uemail)"></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Contrase&ntilde;a: </td>
+                                          <td align="left"><input name="unewpwd1" type="password" onKeyUp="stringFilter4(unewpwd1)" id="unewpwd1" size="15" maxlength="15">
+                                            <span>(m&iacute;nimo 6 caracteres)</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Confirmar contrase&ntilde;a:</td>
+                                          <td align="left"><input name="unewpwd2" type="password" onKeyUp="stringFilter4(unewpwd2)" id="unewpwd2" size="15" maxlength="15"></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Apodo en el sitio:</td>
+                                          <td width="267" align="left"><input name="unick" type="text" onKeyUp="stringFilter4(unick)" id="unick" size="15" maxlength="15">
+                                            <span>(m&iacute;nimo 6 caracteres) </span></td>
+                                        </tr>
+                                        <tr>
+                                        	<td></td>
+                                        	<td colspan="2">
+                                            	<a href="javascript:checknick('')" class="boton_gris">Oprima AQUI para revisar la disponibilidad del apodo deseado.</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Nombre:</td>
+                                          <td align="left">
+                                            <input name="uname" type="text" id="uname" size="20" maxlength="20" onKeyUp="stringFilter3(uname)"></td>
+                                        </tr>
+                                        <tr>
+                                          <td width="140" height="20" align="right" >&nbsp;Apellidos:</td>
+                                          <td align="left"><input name="ulastname" type="text" id="ulastname" size="40" maxlength="40" onKeyUp="stringFilter3(ulastname)"></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Identificaci&oacute;n:</td>
+                                          <td align="left" ><select name="uidtype" id="uidtype">
+                                              <option value="00" selected>Tipo</option>
+                                              <option value="01">C&eacute;dula de Identidad</option>
+                                              <option value="02">C&eacute;dula de Residencia</option>
+                                              <option value="03">Pasaporte</option>
+                                              <option value="04">Otro</option>
+                                            </select>
+                                            <br>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td width="140" height="20" align="right" >&nbsp;Id n&uacute;mero:</td>
+                                          <td align="left"><input name="uidnum" type="text" id="uidnum" size="25" maxlength="25"></td>
+                                        </tr>
+                                        <tr>
+                                          <td rowspan="3" align="right" >&nbsp;Fecha de nacimiento:                                          </td>
+                                          <td height="20" align="left">
+                                            <select name="uday" id="uday">
+                                              <option value="00" selected>D&iacute;a</option>
+                                              <option value="01">01</option>
+                                              <option value="02">02</option>
+                                              <option value="03">03</option>
+                                              <option value="04">04</option>
+                                              <option value="05">05</option>
+                                              <option value="06">06</option>
+                                              <option value="07">07</option>
+                                              <option value="08">08</option>
+                                              <option value="09">09</option>
+                                              <option value="10">10</option>
+                                              <option value="11">11</option>
+                                              <option value="12">12</option>
+                                              <option value="13">13</option>
+                                              <option value="14">14</option>
+                                              <option value="15">15</option>
+                                              <option value="16">16</option>
+                                              <option value="17">17</option>
+                                              <option value="18">18</option>
+                                              <option value="19">19</option>
+                                              <option value="20">20</option>
+                                              <option value="21">21</option>
+                                              <option value="22">22</option>
+                                              <option value="23">23</option>
+                                              <option value="24">24</option>
+                                              <option value="25">25</option>
+                                              <option value="26">26</option>
+                                              <option value="27">27</option>
+                                              <option value="28">28</option>
+                                              <option value="29">29</option>
+                                              <option value="30">30</option>
+                                              <option value="31">31</option>
+                                            </select>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <select name="umonth" id="umonth">
+                                              <option value="00" selected>Mes</option>
+                                              <option value="01">Enero</option>
+                                              <option value="02">Febrero</option>
+                                              <option value="03">Marzo</option>
+                                              <option value="04">Abril</option>
+                                              <option value="05">Mayo</option>
+                                              <option value="06">Junio</option>
+                                              <option value="07">Julio</option>
+                                              <option value="08">Agosto</option>
+                                              <option value="09">Setiembre</option>
+                                              <option value="10">Octubre</option>
+                                              <option value="11">Noviembre</option>
+                                              <option value="12">Diciembre</option>
+                                            </select>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td>
+                                            <select name="uyear" id='uyear'>
+                                              <option value="00" selected>A&ntilde;o</option>
+                                              <option>1920</option>
+                                              <option>1921</option>
+                                              <option>1922</option>
+                                              <option>1923</option>
+                                              <option>1924</option>
+                                              <option>1925</option>
+                                              <option>1926</option>
+                                              <option>1927</option>
+                                              <option>1928</option>
+                                              <option>1929</option>
+                                              <option>1930</option>
+                                              <option>1931</option>
+                                              <option>1932</option>
+                                              <option>1933</option>
+                                              <option>1934</option>
+                                              <option>1935</option>
+                                              <option>1936</option>
+                                              <option>1937</option>
+                                              <option>1938</option>
+                                              <option>1939</option>
+                                              <option>1940</option>
+                                              <option>1941</option>
+                                              <option>1942</option>
+                                              <option>1943</option>
+                                              <option>1944</option>
+                                              <option>1945</option>
+                                              <option>1946</option>
+                                              <option>1947</option>
+                                              <option>1948</option>
+                                              <option>1949</option>
+                                              <option>1950</option>
+                                              <option>1951</option>
+                                              <option>1952</option>
+                                              <option>1953</option>
+                                              <option>1954</option>
+                                              <option>1955</option>
+                                              <option>1956</option>
+                                              <option>1957</option>
+                                              <option>1958</option>
+                                              <option>1959</option>
+                                              <option>1960</option>
+                                              <option>1961</option>
+                                              <option>1962</option>
+                                              <option>1963</option>
+                                              <option>1964</option>
+                                              <option>1965</option>
+                                              <option>1966</option>
+                                              <option>1967</option>
+                                              <option>1968</option>
+                                              <option>1969</option>
+                                              <option>1970</option>
+                                              <option>1971</option>
+                                              <option>1972</option>
+                                              <option>1973</option>
+                                              <option>1974</option>
+                                              <option>1975</option>
+                                              <option>1976</option>
+                                              <option>1977</option>
+                                              <option>1978</option>
+                                              <option>1979</option>
+                                              <option>1980</option>
+                                              <option>1981</option>
+                                              <option>1982</option>
+                                              <option>1983</option>
+                                              <option>1984</option>
+                                              <option>1985</option>
+                                              <option>1986</option>
+                                              <option>1987</option>
+                                              <option>1988</option>
+                                              <option>1989</option>
+                                              <option>1990</option>
+                                              <option>1991</option>
+                                              <option>1992</option>
+                                              <option>1993</option>
+                                              <option>1994</option>
+                                              <option>1995</option>
+                                              <option>1996</option>
+                                              <option>1997</option>
+                                              <option>1998</option>
+                                              <option>1999</option>
+                                              <option>2000</option>
+                                            </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Sexo:</td>
+                                          <td align="left" ><select name="usex" id="usex">
+                                              <option value="0" selected>Sexo</option>
+                                              <option value="1">Hombre</option>
+                                              <option value="2">Mujer</option>
+                                            </select></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Direcci&oacute;n f&iacute;sica:</td>
+                                          <td align="left"><input name="uaddr1" type="text" id="uaddr1" size="70" maxlength="70" onKeyUp="stringFilter2(uaddr1)">
+                                            <br>
+                                            <input name="uaddr2" type="text" id="uaddr2" size="70" maxlength="70" onKeyUp="stringFilter2(uaddr2)"></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Ciudad/provincia:</td>
+                                          <td align="left"><input name="ucity" type="text" id="ucity" size="25" maxlength="25" onKeyUp="stringFilter2(ucity)"></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Pa&iacute;s:</td>
+                                          <td align="left"><select name="ucountry">
+                                              <option value="00" selected>Seleccione el Pa&iacute;s</option>
+                                              <option value="Costa Rica">Costa Rica</option>
+                                              <option value="Afghanistan">Afghanistan</option>
+                                              <option value="Albania">Albania</option>
+                                              <option value="Algeria">Algeria</option>
+                                              <option value="Andorra">Andorra</option>
+                                              <option value="Angola">Angola</option>
+                                              <option value="Anguilla">Anguilla</option>
+                                              <option value="Antarctica">Antarctica</option>
+                                              <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                              <option value="Argentina">Argentina</option>
+                                              <option value="Armenia">Armenia</option>
+                                              <option value="Aruba">Aruba</option>
+                                              <option value="Australia">Australia</option>
+                                              <option value="Austria">Austria</option>
+                                              <option value="Azerbaijan">Azerbaijan</option>
+                                              <option value="Bahamas">Bahamas</option>
+                                              <option value="Bahrain">Bahrain</option>
+                                              <option value="Bangladesh">Bangladesh</option>
+                                              <option value="Barbados">Barbados</option>
+                                              <option value="Belarus">Belarus</option>
+                                              <option value="Belgium">Belgium</option>
+                                              <option value="Belize">Belize</option>
+                                              <option value="Benin">Benin</option>
+                                              <option value="Bermuda">Bermuda</option>
+                                              <option value="Bhutan">Bhutan</option>
+                                              <option value="Bolivia">Bolivia</option>
+                                              <option value="Bosnia Herzegovina">Bosnia Herzegovina</option>
+                                              <option value="Botswana">Botswana</option>
+                                              <option value="Brazil">Brazil</option>
+                                              <option value="Brunei">Brunei</option>
+                                              <option value="Bulgaria">Bulgaria</option>
+                                              <option value="Burkina Faso">Burkina Faso</option>
+                                              <option value="Burundi">Burundi</option>
+                                              <option value="Cambodia">Cambodia</option>
+                                              <option value="Cameroon">Cameroon</option>
+                                              <option value="Canada">Canada</option>
+                                              <option value="Cape Verde">Cape Verde</option>
+                                              <option value="Cayman Islands">Cayman Islands</option>
+                                              <option value="Central African Republic">Central African Republic</option>
+                                              <option value="Chile">Chile</option>
+                                              <option value="China">China</option>
+                                              <option value="Christmas Islands">Christmas Islands</option>
+                                              <option value="Colombia">Colombia</option>
+                                              <option value="Comoros">Comoros</option>
+                                              <option value="Congo">Congo</option>
+                                              <option value="Cook Islands">Cook Islands</option>
+                                              <option value="Coted d'Ivoire">Cote d'Ivoire</option>
+                                              <option value="Croatia">Croatia</option>
+                                              <option value="Cuba">Cuba</option>
+                                              <option value="Cyprus">Cyprus</option>
+                                              <option value="Czech Republic">Czech Republic</option>
+                                              <option value="Denmark">Denmark</option>
+                                              <option value="Djibouti">Djibouti</option>
+                                              <option value="Dominica">Dominica</option>
+                                              <option value="Dominican Republic">Dominican Republic</option>
+                                              <option value="Ecuador">Ecuador</option>
+                                              <option value="Egypt">Egypt</option>
+                                              <option value="El Salvador">El Salvador</option>
+                                              <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                              <option value="Eritrea">Eritrea</option>
+                                              <option value="Estonia">Estonia</option>
+                                              <option value="Ethiopia">Ethiopia</option>
+                                              <option value="Europe">Europe</option>
+                                              <option value="Falkland Islands">Falkland Islands</option>
+                                              <option value="Fiji">Fiji</option>
+                                              <option value="Finland">Finland</option>
+                                              <option value="France">France</option>
+                                              <option value="French Guiana">French Guiana</option>
+                                              <option value="French Polynesia">French Polynesia</option>
+                                              <option value="Gabon">Gabon</option>
+                                              <option value="Gambia">Gambia</option>
+                                              <option value="Georgia">Georgia</option>
+                                              <option value="Germany">Germany</option>
+                                              <option value="Ghana">Ghana</option>
+                                              <option value="Greece">Greece</option>
+                                              <option value="Greenland">Greenland</option>
+                                              <option value="Grenada">Grenada</option>
+                                              <option value="Guadeloupe">Guadeloupe</option>
+                                              <option value="Guam">Guam</option>
+                                              <option value="Guatemala">Guatemala</option>
+                                              <option value="Guinea">Guinea</option>
+                                              <option value="Guinea Bissau">Guinea Bissau</option>
+                                              <option value="Guyana">Guyana</option>
+                                              <option value="Haiti">Haiti</option>
+                                              <option value="Honduras">Honduras</option>
+                                              <option value="HongKong">Hong Kong</option>
+                                              <option value="Hungary">Hungary</option>
+                                              <option value="Iceland">Iceland</option>
+                                              <option value="India">India</option>
+                                              <option value="Indonesia">Indonesia</option>
+                                              <option value="Iran">Iran</option>
+                                              <option value="Iraq">Iraq</option>
+                                              <option value="Ireland">Ireland</option>
+                                              <option value="Israel">Israel</option>
+                                              <option value="Italy">Italy</option>
+                                              <option value="Jamaica">Jamaica</option>
+                                              <option value="Japan">Japan</option>
+                                              <option value="Jordan">Jordan</option>
+                                              <option value="Kazakhstan">Kazakhstan</option>
+                                              <option value="Kenya">Kenya</option>
+                                              <option value="Kiribati">Kiribati</option>
+                                              <option value="Kitts and Nevis">Kitts and Nevis</option>
+                                              <option value="Kuwait">Kuwait</option>
+                                              <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                              <option value="Laos">Laos</option>
+                                              <option value="Latvia">Latvia</option>
+                                              <option value="Lebanon">Lebanon</option>
+                                              <option value="Lesotho">Lesotho</option>
+                                              <option value="Liberia">Liberia</option>
+                                              <option value="Libya">Libya</option>
+                                              <option value="Liechtenstein">Liechtenstein</option>
+                                              <option value="Lithuania">Lithuania</option>
+                                              <option value="Luxembourg">Luxembourg</option>
+                                              <option value="Macau">Macau</option>
+                                              <option value="Macedonia">Macedonia</option>
+                                              <option value="Madagascar">Madagascar</option>
+                                              <option value="Malawi">Malawi</option>
+                                              <option value="Malaysia">Malaysia</option>
+                                              <option value="Maldives">Maldives</option>
+                                              <option value="Mali">Mali</option>
+                                              <option value="Malta">Malta</option>
+                                              <option value="Marshall Islands">Marshall Islands</option>
+                                              <option value="Martinique">Martinique</option>
+                                              <option value="Mauritania">Mauritania</option>
+                                              <option value="Mauritius">Mauritius</option>
+                                              <option value="Mayotte">Mayotte</option>
+                                              <option value="Mexico">Mexico</option>
+                                              <option value="Micronesia">Micronesia</option>
+                                              <option value="Moldova">Moldova</option>
+                                              <option value="Monaco">Monaco</option>
+                                              <option value="Mongolia">Mongolia</option>
+                                              <option value="Montserrat">Montserrat</option>
+                                              <option value="Morocco">Morocco</option>
+                                              <option value="Mozambique">Mozambique</option>
+                                              <option value="Myanmar">Myanmar</option>
+                                              <option value="Namibia">Namibia</option>
+                                              <option value="Nauru">Nauru</option>
+                                              <option value="Nepal">Nepal</option>
+                                              <option value="Netherlands">Netherlands</option>
+                                              <option value="Netherlands Antilles">Netherlands Antilles</option>
+                                              <option value="New Caledonia">New Caledonia</option>
+                                              <option value="New Zealand">New Zealand</option>
+                                              <option value="Nicaragua">Nicaragua</option>
+                                              <option value="Niger">Niger</option>
+                                              <option value="Nigeria">Nigeria</option>
+                                              <option value="Niue">Niue</option>
+                                              <option value="North Korea">North Korea</option>
+                                              <option value="Northern Marianas Islands">Northern Marianas Islands</option>
+                                              <option value="Norway">Norway</option>
+                                              <option value="Oman">Oman</option>
+                                              <option value="Pakistan">Pakistan</option>
+                                              <option value="Palau">Palau</option>
+                                              <option value="Panama">Panama</option>
+                                              <option value="Papua New Guinea">Papua New Guinea</option>
+                                              <option value="Paraguay">Paraguay</option>
+                                              <option value="Peru">Peru</option>
+                                              <option value="Philippines">Philippines</option>
+                                              <option value="Pitcairn Islands">Pitcairn Islands</option>
+                                              <option value="Poland">Poland</option>
+                                              <option value="Portugal">Portugal</option>
+                                              <option value="Puerto Rico">Puerto Rico</option>
+                                              <option value="Qatar">Qatar</option>
+                                              <option value="Reunion">Reunion</option>
+                                              <option value="Romania">Romania</option>
+                                              <option value="Russia">Russia</option>
+                                              <option value="Rwanda">Rwanda</option>
+                                              <option value="SaintLucia">Saint Lucia</option>
+                                              <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                                              <option value="Samoa America">Samoa America</option>
+                                              <option value="Samoa - Western">Samoa - Western</option>
+                                              <option value="San Marino">San Marino</option>
+                                              <option value="Saudi Arabia">Saudi Arabia</option>
+                                              <option value="Senegal">Senegal</option>
+                                              <option value="Seychelles">Seychelles</option>
+                                              <option value="Sierra Leone">Sierra Leone</option>
+                                              <option value="Singapore">Singapore</option>
+                                              <option value="Slovakia">Slovakia</option>
+                                              <option value="Slovenia">Slovenia</option>
+                                              <option value="Solomon Islands">Solomon Islands</option>
+                                              <option value="Somalia">Somalia</option>
+                                              <option value="South Africa">South Africa</option>
+                                              <option value="South Korea">South Korea</option>
+                                              <option value="Spain">Spain</option>
+                                              <option value="Sri Lanka">Sri Lanka</option>
+                                              <option value="Sudan">Sudan</option>
+                                              <option value="Suriname">Suriname</option>
+                                              <option value="Swaziland">Swaziland</option>
+                                              <option value="Sweden">Sweden</option>
+                                              <option value="Switzerland">Switzerland</option>
+                                              <option value="Syria">Syria</option>
+                                              <option value="Taiwan">Taiwan</option>
+                                              <option value="Tajikistan">Tajikistan</option>
+                                              <option value="Tanzania">Tanzania</option>
+                                              <option value="Thailand">Thailand</option>
+                                              <option value="Togo">Togo</option>
+                                              <option value="Tonga">Tonga</option>
+                                              <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                              <option value="Tunisia">Tunisia</option>
+                                              <option value="Turkey">Turkey</option>
+                                              <option value="Turkmenistan">Turkmenistan</option>
+                                              <option value="Tuvalu">Tuvalu</option>
+                                              <option value="Uganda">Uganda</option>
+                                              <option value="Ukraine">Ukraine</option>
+                                              <option value="United Arab Emirates">United Arab Emirates</option>
+                                              <option value="United Kingdom">United Kingdom</option>
+                                              <option value="United States">United States</option>
+                                              <option value="Uruguay">Uruguay</option>
+                                              <option value="Uzbekistan">Uzbekistan</option>
+                                              <option value="Vanuatu">Vanuatu</option>
+                                              <option value="Vatican City">Vatican City</option>
+                                              <option value="Venezuela">Venezuela</option>
+                                              <option value="Vietnam">Vietnam</option>
+                                              <option value="Virgin Islands">Virgin Islands</option>
+                                              <option value="Western Sahara">Western Sahara</option>
+                                              <option value="Yemen">Yemen</option>
+                                              <option value="Yugoslavia">Yugoslavia</option>
+                                              <option value="Zambia">Zambia</option>
+                                              <option value="Zimbabwe">Zimbabwe</option>
+                                            </select></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;C&oacute;digo postal:</td>
+                                          <td align="left"><input name="upostalcode" type="text" id="upostalcode" size="12" maxlength="12"></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Tel&eacute;fono casa:</td>
+                                          <td align="left"><input name="uphonehome" type="text" id="uphonehome" size="12" maxlength="12" onKeyUp="stringFilter(uphonehome)">
+                                            <span>(s&oacute;lo n&uacute;meros)</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Tel&eacute;fono trabajo:</td>
+                                          <td align="left"><input name="uphonework" type="text" id="uphonework" size="12" maxlength="12" onKeyUp="stringFilter(uphonework)">
+                                            <span>(s&oacute;lo n&uacute;meros)</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20" align="right" >&nbsp;Tel&eacute;fono celular:</td>
+                                          <td align="left"><input name="uphonecel" type="text" id="uphonecel" size="12" maxlength="12" onKeyUp="stringFilter(uphonecel)">
+                                            <span>(s&oacute;lo n&uacute;meros)</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="80" colspan="2" align="left" bgcolor="#FFFF99"><strong>Nota:</strong> Favor revisar TODA la informaci&oacute;n proporcionada. Algunos campos NO podr&aacute;n ser modificados una vez que se registre. Cualquier cuenta que contenga informaci&oacute;n falsa podr&iacute;a ser deshabilitada. Para activar la cuenta deber&aacute; responder un correo que le ser&aacute; enviado a la cuenta de correo electr&oacute;nico que indique en este formulario. Adem&aacute;s, al registrarse, acepta recibir correos con informaci&oacute;n, noticias u ofertas de crautos.com.<br>
+                                            <br>
+                                            Adem&aacute;s, su navegador deber tener habilitados los "cookies" para poder utilizar esta opci&oacute;n. Al registrarse en crautos.com, usted acepta recibir correos informativos y/o promocionales provenientes de crautos.com. </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="40" colspan="2" align="center"><br>
+                                            <input name="acceptterms" type="checkbox" id="acceptterms" value="1">
+                                            <span class="style11">Hago constar que la informaci&oacute;n proporcionada es verdadera y correcta</span><span class="style11">.<br>
+                                            </span><br>
+                                            <br>
+                                            <input name="submit" type="submit" id="submit" value="          Enviar          ">
+                                            <br>
+                                            <br>
+                                            <br></td>
+                                        </tr>
+                                      </table>
+                                  </div></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table>
+                    </form>
+
+
+            	</div>
+  			</div>
+        </div>
+    </div>
+</section>
+
+<!--content ends-->
+<div class="clearfix"></div>
+
+
+
+<!--Footer Start-->
+<div class="clearfix"></div>
+<section class="copyright-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" align="center">
+                <div class="logo-footer"><a href="../index.html">
+                    <img class="img-responsive" src="../rimages/crautoslogob.png" hspace="10">
+                    <span>La P&aacute;gina de Autos de Costa Rica</span>
+                    </a>
+                </div>
+                <p>Copyright &copy; 1998-2023.  Todos los derechos reservados.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" align="center">
+                <h4>Cont&aacute;ctanos</h4>
+                <div class="footer-contact">
+                    <ul>
+                        <li><b><i class="fa fa-phone"></i>Tel&eacute;fono:</b><span> (506) 2291-4141</span></li>
+                        <li><b><i class="fa fa-envelope-o"></i>Email:</b><span><a href="mailto:soporte@crautos.com">soporte@crautos.com</a></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" align="center">
+                <ul class="social">
+                    <li><a href="https://facebook.com/crautos" target="_blank" class="sc-1"></a></li>
+                    <a href="https://facebook.com/crautos" target="_blank" class="h3">S&iacute;guenos&nbsp;en&nbsp;Facebook</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="back_to_top"> <img src="../rimages/arrow-up.png" alt="scroll up" /> </div>
+
+<!--Footer End-->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2824303-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2824303-1');
+</script>
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"KE0bl1ao9rD070", domain:"crautos.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "../../d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="../../d5nxst8fruw4z.cloudfront.net/atrk8deb.gif?account=KE0bl1ao9rD070" style="display:none" height="1" width="1" alt="" /></noscript>
+
+
+
+<!-- Bootstrap core JavaScript --> 
+<script src="../bt/js/jquery.fancybox.js" type="text/javascript" ></script> 
+<script src="../bt/js/modernizr.custom.js"></script> 
+<script defer src="../bt/js/jquery.flexslider.js"></script> 
+<script src="../bt/js/jquery.bxslider.js" type="text/javascript"></script> 
+<script src="../bt/js/jquery.selectbox-0.2.js" type="text/javascript"></script> 
+<script src="../bt/js/jquery.mousewheel.js" type="text/javascript" ></script> 
+<script src="../bt/js/jquery.easing.js" type="text/javascript" ></script>
+</body>
+
+<!-- Mirrored from crautos.com/rmicrautos/register.cfm by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 23:40:34 GMT -->
+</html>
